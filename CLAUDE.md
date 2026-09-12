@@ -2,10 +2,23 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+@AGENTS.md
+
 ## Project
 
 "Estude Jogando" — a study game for Brazilian 5th graders (quinto ano, ~10 years old). Subjects: Matemática, Português, Ciências, História, Geografia, Inglês.
-Planned as a React/Next.js web app, primarily for a **tablet in landscape** (touch-first). **No code exists yet** — there are no build/test/lint commands; don't invent them. Re-run `/init` after scaffolding.
+Next.js 16 (App Router, `src/`, Tailwind 4) web app, primarily for a **tablet in landscape** (touch-first).
+
+## Commands
+
+Use **pnpm** (not npm).
+
+- `pnpm test` — Vitest, single run (`pnpm test:watch` to watch). Unit tests are colocated as `src/**/*.test.tsx`. Single test: `pnpm test src/app/page.test.tsx` or `pnpm test -t "<name>"`.
+- `pnpm test:e2e` — Playwright in `e2e/`. It starts its own dev server on port **3100** and runs Chromium with an iPad landscape viewport. First run needs `pnpm exec playwright install chromium`.
+- `pnpm typecheck` — runs `next typegen` before `tsc`; plain `tsc` fails without the generated route types (e.g. `LayoutProps`).
+- `pnpm lint`, `pnpm format:check`.
+- Before calling work done: `pnpm lint && pnpm typecheck && pnpm test`, plus `pnpm test:e2e` for UI changes.
+- A PostToolUse hook runs Prettier on every file you edit. Markdown is excluded via `.prettierignore`.
 
 ## Language
 
