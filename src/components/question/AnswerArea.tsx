@@ -1,5 +1,5 @@
 import type { Question } from "@/lib/questions";
-import type { SubjectTheme } from "./subject-theme";
+import type { SubjectTheme } from "@/components/subject-theme";
 
 type AnswerAreaProps = {
   question: Question;

@@ -1,13 +1,13 @@
 "use client";
 
 import { useReducer } from "react";
+import { SUBJECT_THEME, type SubjectTheme } from "@/components/subject-theme";
 import { isCorrectAnswer } from "@/lib/answers";
 import type { Question } from "@/lib/questions";
 import type { Subject } from "@/lib/subjects";
 import { AnswerArea } from "./AnswerArea";
 import { Keyboard } from "./Keyboard";
 import { initialQuestionState, questionReducer } from "./question-state";
-import { SUBJECT_THEME, type SubjectTheme } from "./subject-theme";
 
 type QuestionScreenProps = {
   subject: Subject;
