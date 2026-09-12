@@ -37,27 +37,32 @@ The one open asset is the BNCC skill list. [bncc-dados](https://github.com/bncc-
 ## Acceptance criteria
 
 - [ ] The game offers exactly six subjects, labeled "Matemática", "Português", "Ciências", "História", "Geografia", "Inglês".
-- [ ] Each subject has a theme color used consistently wherever it appears: Matemática red, Português orange, Ciências pink, História green, Geografia blue, Inglês yellow.
-- [ ] Text shown on or next to a subject color meets WCAG AA contrast (4.5:1). Yellow and pink especially need dark text, not white.
+- [x] Each subject has a theme color used consistently wherever it appears: Matemática red, Português orange, Ciências pink, História green, Geografia blue, Inglês yellow. Tokens in `src/app/globals.css`: a fill color, an `-ink` shade for text on white, and an `on-` color for text on the fill.
+- [x] Text shown on or next to a subject color meets WCAG AA contrast (4.5:1). Yellow and pink especially need dark text, not white. Checked by `src/lib/subject-colors.test.ts`.
 - [ ] All question content targets the Brazilian 5th grade ("quinto ano").
-- [ ] Every Matemática, Português, Ciências, História and Geografia question is tagged with the BNCC 5º ano skill code it practices (EF05…).
+- [x] Every Matemática, Português, Ciências, História and Geografia question is tagged with the BNCC 5º ano skill code it practices (EF05…). The per-subject prefix is enforced when the bank is loaded.
 - [ ] Every Inglês question is tagged with an EF06LI… skill code and marked as outside BNCC 5º ano.
 - [ ] Skill codes and texts come from a vendored copy of bncc-dados, credited as its CC BY 4.0 license requires.
-- [ ] Every question has a correct answer and a pt-BR explanation (used by "Explicar como resolver").
+- [x] Every question has a correct answer and a pt-BR explanation (used by "Explicar como resolver"). Enforced by the schema in `src/lib/questions.ts`.
 - [ ] Every question is reviewed by an adult before it is committed. No wording is copied from INEP, OBMEP, OBA, Canguru or any other third-party source.
-- [ ] The question bank is licensed CC BY 4.0, separately from the MIT-licensed code.
-- [ ] There are no difficulty levels: each subject's questions form a single pool.
+- [x] The question bank is licensed CC BY 4.0, separately from the MIT-licensed code (`data/LICENSE.md`).
+- [x] There are no difficulty levels: each subject's questions form a single pool.
 - [ ] Inglês questions and answer options are in English; instructions, feedback and explanations are in pt-BR.
-- [ ] Two question types exist:
-  - [ ] **Multiple choice**: the kid picks one option from a list.
-  - [ ] **Typed answer**: the kid types letters and/or numbers into an input and submits it.
-- [ ] Typed answers are compared after normalizing both sides: case-insensitive, accent-insensitive, "," and "." accepted as decimal separators, leading/trailing/repeated spaces ignored. E.g. "  historia " matches "História", and "233.6" matches "233,6".
+- [x] Two question types exist:
+  - [x] **Multiple choice**: the kid picks one option from a list.
+  - [x] **Typed answer**: the kid types letters and/or numbers on the in-app keyboard and submits it.
+- [x] Typed answers are compared after normalizing both sides: case-insensitive, accent-insensitive, "," and "." accepted as decimal separators, leading/trailing/repeated spaces ignored. E.g. "  historia " matches "História", and "233.6" matches "233,6".
 - [ ] A kid can send a photo of a text and gets back, in pt-BR, a summary of it and an explanation at a 5th-grade level.
 - [ ] All UI text is pt-BR, with correct accents (the note's spelling is not copied into the UI).
 
 ## Files
 
-TBD — no code yet.
+- `data/questions/<subject>.json`: the question bank. Only `matematica.json` exists so far.
+- `data/LICENSE.md`: CC BY 4.0 notice for the bank.
+- `src/lib/questions.ts`: schema and loader; an invalid bank fails the build.
+- `src/lib/subjects.ts`: the six subjects, their names and BNCC prefixes.
+- `src/lib/answers.ts`: lenient answer comparison.
+- `src/app/globals.css`: subject color tokens.
 
 ## Out of scope
 
