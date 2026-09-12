@@ -1,0 +1,3 @@
+pnpm-lock.yaml
+# Markdown (specs, CLAUDE.md, next-managed AGENTS.md) is hand-formatted
+*.md
