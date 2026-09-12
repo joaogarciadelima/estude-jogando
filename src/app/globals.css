@@ -12,11 +12,36 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/*
+ * Subject colors from Antonia's requirements note (specs/game-overview.md).
+ * Per subject: fill (backgrounds, borders), -ink (text on the white page),
+ * on- (text placed on the fill). Pairs are AA-checked in src/lib/subject-colors.test.ts.
+ * No dark mode: the -ink shades are tuned for a white page.
+ */
+@theme {
+  --color-matematica: #dc2626;
+  --color-matematica-ink: #b91c1c;
+  --color-on-matematica: #ffffff;
+
+  --color-portugues: #f97316;
+  --color-portugues-ink: #c2410c;
+  --color-on-portugues: #1c1917;
+
+  --color-ciencias: #ec4899;
+  --color-ciencias-ink: #be185d;
+  --color-on-ciencias: #1c1917;
+
+  --color-historia: #16a34a;
+  --color-historia-ink: #15803d;
+  --color-on-historia: #1c1917;
+
+  --color-geografia: #2563eb;
+  --color-geografia-ink: #1d4ed8;
+  --color-on-geografia: #ffffff;
+
+  --color-ingles: #facc15;
+  --color-ingles-ink: #854d0e;
+  --color-on-ingles: #1c1917;
 }
 
 body {

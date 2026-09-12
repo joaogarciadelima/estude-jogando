@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ma-porcentagem-25",
+    "type": "choice",
+    "bncc": "EF05MA06",
+    "prompt": "Quanto é 25% de 80?",
+    "options": ["10", "20", "25", "40"],
+    "answer": "20",
+    "explanation": [
+      "25% é a mesma coisa que a quarta parte de um inteiro.",
+      "Para achar a quarta parte, divida por 4.",
+      "80 ÷ 4 = 20."
+    ]
+  },
+  {
+    "id": "ma-porcentagem-10",
+    "type": "typed",
+    "bncc": "EF05MA06",
+    "prompt": "Calcule 10% de 350.",
+    "answer": "35",
+    "explanation": [
+      "10% é a mesma coisa que a décima parte de um inteiro.",
+      "Para achar a décima parte, divida por 10.",
+      "350 ÷ 10 = 35."
+    ]
+  },
+  {
+    "id": "ma-soma-decimais",
+    "type": "typed",
+    "bncc": "EF05MA07",
+    "prompt": "Quanto é 12,5 + 7,25?",
+    "answer": "19,75",
+    "explanation": [
+      "Escreva um número embaixo do outro, com as vírgulas alinhadas: 12,50 + 7,25.",
+      "Some cada coluna, começando pela direita: centésimos, décimos e unidades.",
+      "12,50 + 7,25 = 19,75."
+    ]
+  },
+  {
+    "id": "ma-fracao-equivalente",
+    "type": "choice",
+    "bncc": "EF05MA04",
+    "prompt": "Qual fração é equivalente a 1/2?",
+    "options": ["1/4", "2/3", "2/4", "3/5"],
+    "answer": "2/4",
+    "explanation": [
+      "Frações equivalentes mostram a mesma parte do todo.",
+      "Multiplique o número de cima e o de baixo de 1/2 pelo mesmo número, por exemplo 2.",
+      "1 × 2 = 2 e 2 × 2 = 4, então 1/2 é igual a 2/4."
+    ]
+  }
+]
