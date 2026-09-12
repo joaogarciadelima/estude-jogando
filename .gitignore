@@ -4,6 +4,8 @@ desenhos-antonia-ideia/
 # Local Claude / Ruflo state
 .claude/settings.local.json
 .claude-flow/
+.claude/proven-config.json
+.claude/.proven-config-version
 CLAUDE.local.md
 
 # Env
