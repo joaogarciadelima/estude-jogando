@@ -45,8 +45,8 @@ test("every tappable element is at least 44×44 CSS px and fits the tablet scree
 }) => {
   await answerFirstQuestion(page);
   const viewport = page.viewportSize()!;
-  // Scoped to <main>: `next dev` injects its own dev-tools button outside the app.
-  const buttons = await page.locator("main").getByRole("button").all();
+  // Buttons and links, scoped to <main>: `next dev` injects its own dev-tools button outside the app.
+  const buttons = await page.locator("main").locator("button, a").all();
   expect(buttons.length).toBeGreaterThan(50);
 
   for (const b of buttons) {
@@ -66,6 +66,13 @@ test("every tappable element is at least 44×44 CSS px and fits the tablet scree
 test("a subject without questions says so", async ({ page }) => {
   await page.goto("/ingles");
   await expect(page.getByText("Ainda não há questões de Inglês.")).toBeVisible();
+});
+
+test("'← Matérias' goes back to the home", async ({ page }) => {
+  await page.goto("/matematica");
+  await page.getByRole("link", { name: "Voltar às matérias" }).click();
+  await expect(page).toHaveURL(/\/$/);
+  await expect(page.getByRole("heading", { level: 1, name: "Estude Jogando" })).toBeVisible();
 });
 
 test("an unknown subject is a 404", async ({ page }) => {

@@ -157,3 +157,26 @@ describe("end of the subject", () => {
     expect(screen.getByText("Ainda não há questões de Matemática.")).toBeInTheDocument();
   });
 });
+
+describe("navigation back to the home", () => {
+  const backLink = () => screen.getByRole("link", { name: "Voltar às matérias" });
+
+  test("the question view links back to the home", () => {
+    renderScreen();
+    expect(backLink()).toHaveAttribute("href", "/");
+    expect(backLink()).toHaveTextContent("Matérias");
+  });
+
+  test("the 'Você terminou!' screen links back to the home", () => {
+    renderScreen([QUESTIONS[0]]);
+    click("20");
+    click("Conferir resultado");
+    click("Próxima");
+    expect(backLink()).toHaveAttribute("href", "/");
+  });
+
+  test("the empty-subject screen links back to the home", () => {
+    renderScreen([]);
+    expect(backLink()).toHaveAttribute("href", "/");
+  });
+});
