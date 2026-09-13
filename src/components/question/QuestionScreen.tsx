@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useReducer } from "react";
 import { SUBJECT_THEME, type SubjectTheme } from "@/components/subject-theme";
 import { isCorrectAnswer } from "@/lib/answers";
@@ -50,6 +51,7 @@ export function QuestionScreen({ subject, questions }: QuestionScreenProps) {
     // Right column is ~64% wide so an 11-key keyboard row fits with 44px keys on a 944px iPad.
     <main className="grid h-dvh grid-cols-[minmax(0,1fr)_minmax(0,1.8fr)] gap-4 p-4">
       <section className="flex min-h-0 flex-col gap-4">
+        <BackLink className="self-start" />
         <h1 className={`text-4xl font-bold ${theme.ink}`}>{subject.name}</h1>
         <p className="text-2xl">{question.prompt}</p>
         <div className="min-h-0 flex-1 overflow-y-auto">
@@ -164,6 +166,19 @@ function CenteredMessage({
       <h1 className="text-5xl font-bold">{title}</h1>
       <p className="text-3xl">{text}</p>
       {children && <div className="w-80">{children}</div>}
+      <BackLink />
     </main>
+  );
+}
+
+function BackLink({ className = "" }: { className?: string }) {
+  return (
+    <Link
+      href="/"
+      aria-label="Voltar às matérias"
+      className={`inline-flex min-h-11 min-w-11 items-center gap-2 text-xl font-semibold text-stone-700 ${className}`}
+    >
+      <span aria-hidden="true">←</span> Matérias
+    </Link>
   );
 }

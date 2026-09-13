@@ -38,7 +38,7 @@ Decisions confirmed with the user:
 
 ## Out of scope
 
-- A way back from the question screen to the home.
+- A way back from the question screen to the home (specced in `specs/question-screen.md`).
 - Progress or completion badges on the cards (needs game mechanics).
 - Hiding or marking subjects that have no questions yet.
 

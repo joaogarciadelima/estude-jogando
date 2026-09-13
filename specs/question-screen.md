@@ -63,6 +63,11 @@ Implementation decisions:
 - [x] A subject with no questions yet shows "Ainda não há questões de <matéria>."
 - [x] Only the six subject routes exist (`/matematica`, `/portugues`, …); any other slug is a 404.
 
+**Navigation back to the home**
+- [x] A "← Matérias" link to `/` sits at the top of the left column, above the subject title, and is at least 44×44 CSS px.
+- [x] The "Você terminou!" and "Ainda não há questões de …" screens also have a "← Matérias" link.
+- [x] Leaving mid-question asks for no confirmation, since there is no score to lose.
+
 ## Files
 
 - `src/app/[subject]/page.tsx`: route, one statically generated page per subject.
@@ -70,7 +75,7 @@ Implementation decisions:
 - `src/components/question/AnswerArea.tsx`: options, typed-answer display and feedback.
 - `src/components/question/Keyboard.tsx`: the in-app keyboard.
 - `src/components/question/question-state.ts`: screen state reducer.
-- `src/components/question/subject-theme.ts`: subject color class names.
+- `src/components/subject-theme.ts`: subject color class names (shared with the home).
 - Tests: colocated `*.test.tsx` files, plus `e2e/question-screen.spec.ts`.
 
 ## Out of scope
@@ -79,7 +84,6 @@ Implementation decisions:
 - Scoring, progress, rewards and question ordering.
 - Portrait and phone layouts.
 - The photo summary feature.
-- Navigation to a subject: the home page doesn't link to the subjects yet.
 
 ## Open questions
 
