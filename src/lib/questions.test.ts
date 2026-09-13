@@ -27,6 +27,21 @@ describe("parseQuestions", () => {
     expect(() => parseQuestions("matematica", [{ ...validChoice, bncc: "EF05LP01" }])).toThrow();
   });
 
+  test("rejects a well-formed BNCC code that does not exist", () => {
+    expect(() => parseQuestions("matematica", [{ ...validChoice, bncc: "EF05MA99" }])).toThrow(
+      /EF05MA99/,
+    );
+  });
+
+  test("accepts a multi-year Português code that covers 5º ano (EF35LP03)", () => {
+    expect(parseQuestions("portugues", [{ ...validChoice, bncc: "EF35LP03" }])).toHaveLength(1);
+  });
+
+  test("Inglês takes 6º ano codes (EF06LI…), since the BNCC has no English before 6º ano", () => {
+    expect(parseQuestions("ingles", [{ ...validChoice, bncc: "EF06LI01" }])).toHaveLength(1);
+    expect(() => parseQuestions("ingles", [{ ...validChoice, bncc: "EF05MA06" }])).toThrow();
+  });
+
   test("rejects unknown fields", () => {
     expect(() => parseQuestions("matematica", [{ ...validChoice, extra: true }])).toThrow();
   });
@@ -45,12 +60,21 @@ describe("question bank", () => {
     expect(() => getQuestions(slug)).not.toThrow();
   });
 
-  test("matematica has both multiple-choice and typed questions", () => {
-    const types = new Set(getQuestions("matematica").map((q) => q.type));
-    expect(types).toEqual(new Set(["choice", "typed"]));
-  });
+  test.each(SUBJECTS.map((s) => s.slug))(
+    "%s has at least 4 questions, both multiple-choice and typed",
+    (slug) => {
+      const questions = getQuestions(slug);
+      expect(questions.length).toBeGreaterThanOrEqual(4);
+      expect(new Set(questions.map((q) => q.type))).toEqual(new Set(["choice", "typed"]));
+    },
+  );
 
-  test("subjects without a question file return an empty list", () => {
-    expect(getQuestions("ingles")).toEqual([]);
+  test("typed answers only use characters the in-app keyboard can type", () => {
+    const typeable = /^[a-z0-9áàâãéêíóôõúç,%\- ]+$/;
+    for (const { slug } of SUBJECTS) {
+      for (const q of getQuestions(slug)) {
+        if (q.type === "typed") expect(q.answer.toLowerCase(), q.id).toMatch(typeable);
+      }
+    }
   });
 });

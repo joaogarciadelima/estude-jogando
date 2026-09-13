@@ -1,0 +1,52 @@
+[
+  {
+    "id": "lp-acentuacao-passaro",
+    "type": "choice",
+    "bncc": "EF05LP03",
+    "prompt": "Qual palavra está escrita com o acento certo?",
+    "options": ["pássaro", "passáro", "pàssaro", "passarô"],
+    "answer": "pássaro",
+    "explanation": [
+      "Fale a palavra devagar: PÁS-sa-ro. A sílaba mais forte é a primeira.",
+      "Quando a sílaba mais forte é a antepenúltima, a palavra é proparoxítona.",
+      "Toda proparoxítona leva acento. Por isso escrevemos: pássaro."
+    ]
+  },
+  {
+    "id": "lp-concordancia-jogam",
+    "type": "choice",
+    "bncc": "EF05LP06",
+    "prompt": "Complete a frase: \"Os meninos ___ futebol no recreio.\"",
+    "options": ["joga", "jogam", "jogo", "jogamos"],
+    "answer": "jogam",
+    "explanation": [
+      "Quem faz a ação são \"os meninos\": mais de uma pessoa, ou seja, plural.",
+      "\"Os meninos\" é o mesmo que \"eles\". Com \"eles\", o verbo jogar fica \"jogam\".",
+      "Os meninos jogam futebol no recreio."
+    ]
+  },
+  {
+    "id": "lp-pronome-elas",
+    "type": "typed",
+    "bncc": "EF35LP14",
+    "prompt": "Qual pronome pode ficar no lugar de \"Maria e Ana\" na frase \"Maria e Ana foram à praia\"?",
+    "answer": "elas",
+    "explanation": [
+      "\"Maria e Ana\" são duas meninas: mais de uma pessoa, no feminino.",
+      "O pronome que substitui mais de uma pessoa no feminino é \"elas\".",
+      "Elas foram à praia."
+    ]
+  },
+  {
+    "id": "lp-verbo-estudei",
+    "type": "typed",
+    "bncc": "EF05LP06",
+    "prompt": "Escreva o verbo \"estudar\" no passado para completar: \"Ontem eu ___ muito.\"",
+    "answer": "estudei",
+    "explanation": [
+      "A palavra \"ontem\" mostra que a ação já aconteceu: é passado.",
+      "Com \"eu\", o verbo estudar no passado fica \"estudei\".",
+      "Ontem eu estudei muito."
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ci-evaporacao",
+    "type": "choice",
+    "bncc": "EF05CI02",
+    "prompt": "O Sol esquenta a água do rio e ela vira vapor. Como se chama essa mudança?",
+    "options": ["Evaporação", "Condensação", "Solidificação", "Fusão"],
+    "answer": "Evaporação",
+    "explanation": [
+      "O calor do Sol aquece a água, que está no estado líquido.",
+      "Quando a água passa do estado líquido para o gasoso (vapor), acontece a evaporação.",
+      "A evaporação é uma das etapas do ciclo da água."
+    ]
+  },
+  {
+    "id": "ci-cruzeiro-do-sul",
+    "type": "choice",
+    "bncc": "EF05CI10",
+    "prompt": "Qual constelação aparece na bandeira do Brasil e ajuda a encontrar o sul?",
+    "options": ["Cruzeiro do Sul", "Órion", "Escorpião", "Ursa Maior"],
+    "answer": "Cruzeiro do Sul",
+    "explanation": [
+      "Constelações são grupos de estrelas que, vistos da Terra, parecem formar desenhos no céu.",
+      "O Cruzeiro do Sul tem quatro estrelas principais que lembram uma cruz.",
+      "Ele aparece na bandeira do Brasil e ajuda a encontrar a direção sul."
+    ]
+  },
+  {
+    "id": "ci-fases-da-lua",
+    "type": "typed",
+    "bncc": "EF05CI12",
+    "prompt": "Quantas fases principais a Lua tem?",
+    "answer": "4",
+    "explanation": [
+      "As fases principais da Lua são: nova, crescente, cheia e minguante.",
+      "Contando: 1, 2, 3, 4.",
+      "São 4 fases, que se repetem mais ou menos a cada 29 dias e meio."
+    ]
+  },
+  {
+    "id": "ci-coracao",
+    "type": "typed",
+    "bncc": "EF05CI07",
+    "prompt": "Qual órgão bombeia o sangue para todas as partes do corpo?",
+    "answer": "coração",
+    "explanation": [
+      "O sistema circulatório leva o sangue por todo o corpo.",
+      "O órgão que funciona como uma bomba, empurrando o sangue, é o coração.",
+      "O sangue leva nutrientes e oxigênio e recolhe o que o corpo precisa eliminar."
+    ]
+  }
+]

@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import { useReducer } from "react";
+import { BackLink } from "@/components/BackLink";
 import { SUBJECT_THEME, type SubjectTheme } from "@/components/subject-theme";
 import { isCorrectAnswer } from "@/lib/answers";
 import type { Question } from "@/lib/questions";
@@ -168,17 +168,5 @@ function CenteredMessage({
       {children && <div className="w-80">{children}</div>}
       <BackLink />
     </main>
-  );
-}
-
-function BackLink({ className = "" }: { className?: string }) {
-  return (
-    <Link
-      href="/"
-      aria-label="Voltar às matérias"
-      className={`inline-flex min-h-11 min-w-11 items-center gap-2 text-xl font-semibold text-stone-700 ${className}`}
-    >
-      <span aria-hidden="true">←</span> Matérias
-    </Link>
   );
 }

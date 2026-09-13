@@ -1,0 +1,52 @@
+[
+  {
+    "id": "li-to-be-is",
+    "type": "choice",
+    "bncc": "EF06LI19",
+    "prompt": "Complete com o verbo to be: \"She ___ my sister.\"",
+    "options": ["is", "am", "are", "be"],
+    "answer": "is",
+    "explanation": [
+      "\"She\" quer dizer \"ela\": uma pessoa só, de quem estamos falando.",
+      "Com he (ele), she (ela) e it, o verbo to be fica \"is\".",
+      "She is my sister. = Ela é minha irmã."
+    ]
+  },
+  {
+    "id": "li-possessive-my",
+    "type": "choice",
+    "bncc": "EF06LI23",
+    "prompt": "O livro é seu. Complete: \"This is ___ book.\"",
+    "options": ["my", "me", "I", "mine"],
+    "answer": "my",
+    "explanation": [
+      "Para dizer que algo é seu, antes do nome da coisa, usamos \"my\" (meu, minha).",
+      "\"I\" e \"me\" querem dizer \"eu\" e \"mim\". \"Mine\" também é \"meu\", mas não vem antes do nome da coisa.",
+      "This is my book. = Este é o meu livro."
+    ]
+  },
+  {
+    "id": "li-school",
+    "type": "typed",
+    "bncc": "EF06LI17",
+    "prompt": "Como se diz \"escola\" em inglês?",
+    "answer": "school",
+    "explanation": [
+      "\"Escola\" em inglês é \"school\".",
+      "Fala-se mais ou menos assim: \"skul\".",
+      "Exemplo: I go to school every day. = Eu vou para a escola todos os dias."
+    ]
+  },
+  {
+    "id": "li-seven",
+    "type": "typed",
+    "bncc": "EF06LI17",
+    "prompt": "Escreva por extenso, em inglês, o número 7.",
+    "answer": "seven",
+    "explanation": [
+      "Os números de 1 a 7 em inglês são: one, two, three, four, five, six, seven.",
+      "Então o número 7 é \"seven\".",
+      "Exemplo: I have seven pencils. = Eu tenho sete lápis."
+    ]
+  }
+]
