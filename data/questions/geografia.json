@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ge-energia-renovavel",
+    "type": "choice",
+    "bncc": "EF05GE07",
+    "prompt": "Qual destas fontes de energia é renovável?",
+    "options": ["Energia solar", "Petróleo", "Carvão mineral", "Gás natural"],
+    "answer": "Energia solar",
+    "explanation": [
+      "Energia renovável vem de fontes que não acabam, ou que a natureza repõe.",
+      "Petróleo, carvão mineral e gás natural levaram milhões de anos para se formar e podem acabar.",
+      "A luz do Sol chega todos os dias. Por isso a energia solar é renovável."
+    ]
+  },
+  {
+    "id": "ge-campo-agricultura",
+    "type": "choice",
+    "bncc": "EF05GE04",
+    "prompt": "Qual atividade é mais comum no campo do que na cidade?",
+    "options": ["Agricultura", "Indústria", "Comércio", "Transporte de metrô"],
+    "answer": "Agricultura",
+    "explanation": [
+      "No campo há mais espaço e terra para plantar e criar animais.",
+      "Agricultura é o trabalho de plantar e colher alimentos.",
+      "Muitos alimentos vendidos na cidade são produzidos no campo."
+    ]
+  },
+  {
+    "id": "ge-metro",
+    "type": "typed",
+    "bncc": "EF05GE06",
+    "prompt": "Qual meio de transporte anda sobre trilhos e leva passageiros por baixo da terra em grandes cidades?",
+    "answer": "metrô",
+    "explanation": [
+      "Nas grandes cidades, muitas pessoas precisam se deslocar ao mesmo tempo.",
+      "O metrô é um trem que anda sobre trilhos, muitas vezes em túneis debaixo da terra.",
+      "Ele leva muita gente de uma vez e ajuda a diminuir o trânsito nas ruas."
+    ]
+  },
+  {
+    "id": "ge-esgoto",
+    "type": "typed",
+    "bncc": "EF05GE10",
+    "prompt": "Como se chama a água suja que sai das casas depois de usada no banho, na pia e no vaso sanitário?",
+    "answer": "esgoto",
+    "explanation": [
+      "A água usada nas casas fica suja e vira esgoto.",
+      "Quando o esgoto vai direto para rios e mares sem tratamento, ele polui a água.",
+      "Por isso as cidades precisam de estações de tratamento de esgoto."
+    ]
+  }
+]

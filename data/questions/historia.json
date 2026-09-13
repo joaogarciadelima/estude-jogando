@@ -1,0 +1,52 @@
+[
+  {
+    "id": "hi-patrimonio-frevo",
+    "type": "choice",
+    "bncc": "EF05HI10",
+    "prompt": "Qual destes é um patrimônio imaterial do Brasil?",
+    "options": ["O frevo", "O Cristo Redentor", "O Teatro Amazonas", "O Pelourinho"],
+    "answer": "O frevo",
+    "explanation": [
+      "Patrimônio imaterial é aquilo que não se pega com a mão: danças, músicas, festas e jeitos de fazer as coisas.",
+      "Construções como o Cristo Redentor são patrimônio material.",
+      "O frevo, dança e música de Pernambuco, é patrimônio imaterial do Brasil."
+    ]
+  },
+  {
+    "id": "hi-comunicacao-carta",
+    "type": "choice",
+    "bncc": "EF05HI06",
+    "prompt": "Qual destas formas de comunicação é a mais antiga?",
+    "options": ["Carta", "Telefone", "Televisão", "Internet"],
+    "answer": "Carta",
+    "explanation": [
+      "As pessoas escrevem cartas há milhares de anos.",
+      "O telefone foi inventado no século XIX, a televisão no século XX e a internet no fim do século XX.",
+      "Por isso a carta é a mais antiga das quatro."
+    ]
+  },
+  {
+    "id": "hi-seculo",
+    "type": "typed",
+    "bncc": "EF05HI08",
+    "prompt": "Quantos anos tem um século?",
+    "answer": "100",
+    "explanation": [
+      "O século é uma forma de marcar a passagem do tempo.",
+      "Cada século tem 100 anos.",
+      "Por exemplo: o século XXI começou em 2001 e vai até 2100."
+    ]
+  },
+  {
+    "id": "hi-lei-aurea",
+    "type": "typed",
+    "bncc": "EF05HI05",
+    "prompt": "Em que ano foi assinada a Lei Áurea, que acabou com a escravidão no Brasil?",
+    "answer": "1888",
+    "explanation": [
+      "A Lei Áurea foi assinada em 13 de maio de 1888.",
+      "Ela acabou com a escravidão no Brasil, mas não garantiu direitos às pessoas libertadas.",
+      "A luta por cidadania e igualdade continuou depois disso e continua até hoje."
+    ]
+  }
+]

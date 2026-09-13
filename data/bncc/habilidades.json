@@ -1,0 +1,1452 @@
+[
+  {
+    "codigo": "EF05CI01",
+    "texto": "Explorar fenômenos da vida cotidiana que evidenciem propriedades físicas dos materiais – como densidade, condutibilidade térmica e elétrica, respostas a forças magnéticas, solubilidade, respostas a forças mecânicas (dureza, elasticidade etc.), entre outras.",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05CI02",
+    "texto": "Aplicar os conhecimentos sobre as mudanças de estado físico da água para explicar o ciclo hidrológico e analisar suas implicações na agricultura, no clima, na geração de energia elétrica, no provimento de água potável e no equilíbrio dos ecossistemas regionais (ou locais).",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05CI03",
+    "texto": "Selecionar argumentos que justifiquem a importância da cobertura vegetal para a manutenção do ciclo da água, a conservação dos solos, dos cursos de água e da qualidade do ar atmosférico.",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05CI04",
+    "texto": "Identificar os principais usos da água e de outros materiais nas atividades cotidianas para discutir e propor formas sustentáveis de utilização desses recursos.",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05CI05",
+    "texto": "Construir propostas coletivas para um consumo mais consciente e criar soluções tecnológicas para o descarte adequado e a reutilização ou reciclagem de materiais consumidos na escola e/ou na vida cotidiana.",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05CI06",
+    "texto": "Selecionar argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas.",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05CI07",
+    "texto": "Justificar a relação entre o funcionamento do sistema circulatório, a distribuição dos nutrientes pelo organismo e a eliminação dos resíduos produzidos.",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05CI08",
+    "texto": "Organizar um cardápio equilibrado com base nas características dos grupos alimentares (nutrientes e calorias) e nas necessidades individuais (atividades realizadas, idade, sexo etc.) para a manutenção da saúde do organismo.",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05CI09",
+    "texto": "Discutir a ocorrência de distúrbios nutricionais (como obesidade, subnutrição etc.) entre crianças e jovens a partir da análise de seus hábitos (tipos e quantidade de alimento ingerido, prática de atividade física etc.).",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05CI10",
+    "texto": "Identificar algumas constelações no céu, com o apoio de recursos (como mapas celestes e aplicativos digitais, entre outros), e os períodos do ano em que elas são visíveis no início da noite.",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05CI11",
+    "texto": "Associar o movimento diário do Sol e das demais estrelas no céu ao movimento de rotação da Terra.",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05CI12",
+    "texto": "Concluir sobre a periodicidade das fases da Lua, com base na observação e no registro das formas aparentes da Lua no céu ao longo de, pelo menos, dois meses.",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05CI13",
+    "texto": "Projetar e construir dispositivos para observação à distância (luneta, periscópio etc.), para observação ampliada de objetos (lupas, microscópios) ou para registro de imagens (máquinas fotográficas) e discutir usos sociais desses dispositivos.",
+    "componente": "ef-comp-ci",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05GE01",
+    "texto": "Descrever e analisar dinâmicas populacionais na Unidade da Federação em que vive, estabelecendo relações entre migrações e condições de infraestrutura.",
+    "componente": "ef-comp-ge",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05GE02",
+    "texto": "Identificar diferenças étnico-raciais e étnico-culturais e desigualdades sociais entre grupos em diferentes territórios.",
+    "componente": "ef-comp-ge",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05GE03",
+    "texto": "Identificar as formas e funções das cidades e analisar as mudanças sociais, econômicas e ambientais provocadas pelo seu crescimento.",
+    "componente": "ef-comp-ge",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05GE04",
+    "texto": "Reconhecer as características da cidade e analisar as interações entre a cidade e o campo e entre cidades na rede urbana.",
+    "componente": "ef-comp-ge",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05GE05",
+    "texto": "Identificar e comparar as mudanças dos tipos de trabalho e desenvolvimento tecnológico na agropecuária, na indústria, no comércio e nos serviços.",
+    "componente": "ef-comp-ge",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05GE06",
+    "texto": "Identificar e comparar transformações dos meios de transporte e de comunicação.",
+    "componente": "ef-comp-ge",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05GE07",
+    "texto": "Identificar os diferentes tipos de energia utilizados na produção industrial, agrícola e extrativa e no cotidiano das populações.",
+    "componente": "ef-comp-ge",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05GE08",
+    "texto": "Analisar transformações de paisagens nas cidades, comparando sequência de fotografias, fotografias aéreas e imagens de satélite de épocas diferentes.",
+    "componente": "ef-comp-ge",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05GE09",
+    "texto": "Estabelecer conexões e hierarquias entre diferentes cidades, utilizando mapas temáticos e representações gráficas.",
+    "componente": "ef-comp-ge",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05GE10",
+    "texto": "Reconhecer e comparar atributos da qualidade ambiental e algumas formas de poluição dos cursos de água e dos oceanos (esgotos, efluentes industriais, marés negras etc.).",
+    "componente": "ef-comp-ge",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05GE11",
+    "texto": "Identificar e descrever problemas ambientais que ocorrem no entorno da escola e da residência (lixões, indústrias poluentes, destruição do patrimônio histórico etc.), propondo soluções (inclusive tecnológicas) para esses problemas.",
+    "componente": "ef-comp-ge",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05GE12",
+    "texto": "Identificar órgãos do poder público e canais de participação social responsáveis por buscar soluções para a melhoria da qualidade de vida (em áreas como meio ambiente, mobilidade, moradia e direito à cidade) e discutir as propostas implementadas por esses órgãos que afetam a comunidade em que vive.",
+    "componente": "ef-comp-ge",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05HI01",
+    "texto": "Identificar os processos de formação das culturas e dos povos, relacionando-os com o espaço geográfico ocupado.",
+    "componente": "ef-comp-hi",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05HI02",
+    "texto": "Identificar os mecanismos de organização do poder político com vistas à compreensão da ideia de Estado e/ou de outras formas de ordenação social.",
+    "componente": "ef-comp-hi",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05HI03",
+    "texto": "Analisar o papel das culturas e das religiões na composição identitária dos povos antigos.",
+    "componente": "ef-comp-hi",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05HI04",
+    "texto": "Associar a noção de cidadania com os princípios de respeito à diversidade, à pluralidade e aos direitos humanos.",
+    "componente": "ef-comp-hi",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05HI05",
+    "texto": "Associar o conceito de cidadania à conquista de direitos dos povos e das sociedades, compreendendo-o como conquista histórica.",
+    "componente": "ef-comp-hi",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05HI06",
+    "texto": "Comparar o uso de diferentes linguagens e tecnologias no processo de comunicação e avaliar os significados sociais, políticos e culturais atribuídos a elas.",
+    "componente": "ef-comp-hi",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05HI07",
+    "texto": "Identificar os processos de produção, hierarquização e difusão dos marcos de memória e discutir a presença e/ou a ausência de diferentes grupos que compõem a sociedade na nomeação desses marcos de memória.",
+    "componente": "ef-comp-hi",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05HI08",
+    "texto": "Identificar formas de marcação da passagem do tempo em distintas sociedades, incluindo os povos indígenas originários e os povos africanos.",
+    "componente": "ef-comp-hi",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05HI09",
+    "texto": "Comparar pontos de vista sobre temas que impactam a vida cotidiana no tempo presente, por meio do acesso a diferentes fontes, incluindo orais.",
+    "componente": "ef-comp-hi",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05HI10",
+    "texto": "Inventariar os patrimônios materiais e imateriais da humanidade e analisar mudanças e permanências desses patrimônios ao longo do tempo.",
+    "componente": "ef-comp-hi",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP01",
+    "texto": "Grafar palavras utilizando regras de correspondência fonema-grafema regulares, contextuais e morfológicas e palavras de uso frequente com correspondências irregulares.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP02",
+    "texto": "Identificar o caráter polissêmico das palavras (uma mesma palavra com diferentes significados, de acordo com o contexto de uso), comparando o significado de determinados termos utilizados nas áreas científicas com esses mesmos termos utilizados na linguagem usual.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP03",
+    "texto": "Acentuar corretamente palavras oxítonas, paroxítonas e proparoxítonas.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP04",
+    "texto": "Diferenciar, na leitura de textos, vírgula, ponto e vírgula, dois-pontos e reconhecer, na leitura de textos, o efeito de sentido que decorre do uso de reticências, aspas, parênteses.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP05",
+    "texto": "Identificar a expressão de presente, passado e futuro em tempos verbais do modo indicativo.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP06",
+    "texto": "Flexionar, adequadamente, na escrita e na oralidade, os verbos em concordância com pronomes pessoais/nomes sujeitos da oração.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP07",
+    "texto": "Identificar, em textos, o uso de conjunções e a relação que estabelecem entre partes do texto: adição, oposição, tempo, causa, condição, finalidade.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP08",
+    "texto": "Diferenciar palavras primitivas, derivadas e compostas, e derivadas por adição de prefixo e de sufixo.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP09",
+    "texto": "Ler e compreender, com autonomia, textos instrucional de regras de jogo, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP10",
+    "texto": "Ler e compreender, com autonomia, anedotas, piadas e cartuns, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP11",
+    "texto": "Registrar, com autonomia, anedotas, piadas e cartuns, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP12",
+    "texto": "Planejar e produzir, com autonomia, textos instrucionais de regras de jogo, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP13",
+    "texto": "Assistir, em vídeo digital, a postagem de vlog infantil de críticas de brinquedos e livros de literatura infantil e, a partir dele, planejar e produzir resenhas digitais em áudio ou vídeo.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP14",
+    "texto": "Identificar e reproduzir, em textos de resenha crítica de brinquedos ou livros de literatura infantil, a formatação própria desses textos (apresentação e avaliação do produto).",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP15",
+    "texto": "Ler/assistir e compreender, com autonomia, notícias, reportagens, vídeos em vlogs argumentativos, dentre outros gêneros do campo político-cidadão, de acordo com as convenções dos gêneros e considerando a situação comunicativa e o tema/assunto do texto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP16",
+    "texto": "Comparar informações sobre um mesmo fato veiculadas em diferentes mídias e concluir sobre qual é mais confiável e por quê.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP17",
+    "texto": "Produzir roteiro para edição de uma reportagem digital sobre temas de interesse da turma, a partir de buscas de informações, imagens, áudios e vídeos na internet, de acordo com as convenções do gênero e considerando a situação comunicativa e o tema/assunto do texto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP18",
+    "texto": "Roteirizar, produzir e editar vídeo para vlogs argumentativos sobre produtos de mídia para público infantil (filmes, desenhos animados, HQs, games etc.), com base em conhecimentos sobre os mesmos, de acordo com as convenções do gênero e considerando a situação comunicativa e o tema/ assunto/finalidade do texto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP19",
+    "texto": "Argumentar oralmente sobre acontecimentos de interesse social, com base em conhecimentos sobre fatos divulgados em TV, rádio, mídia impressa e digital, respeitando pontos de vista diferentes.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP20",
+    "texto": "Analisar a validade e força de argumentos em argumentações sobre produtos de mídia para público infantil (filmes, desenhos animados, HQs, games etc.), com base em conhecimentos sobre os mesmos.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP21",
+    "texto": "Analisar o padrão entonacional, a expressão facial e corporal e as escolhas de variedade e registro linguísticos de vloggers de vlogs opinativos ou argumentativos.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP22",
+    "texto": "Ler e compreender verbetes de dicionário, identificando a estrutura, as informações gramaticais (significado de abreviaturas) e as informações semânticas.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP23",
+    "texto": "Comparar informações apresentadas em gráficos ou tabelas.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP24",
+    "texto": "Planejar e produzir texto sobre tema de interesse, organizando resultados de pesquisa em fontes de informação impressas ou digitais, incluindo imagens e gráficos ou tabelas, considerando a situação comunicativa e o tema/assunto do texto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP25",
+    "texto": "Planejar e produzir, com certa autonomia, verbetes de dicionário, digitais ou impressos, considerando a situação comunicativa e o tema/assunto/finalidade do texto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP26",
+    "texto": "Utilizar, ao produzir o texto, conhecimentos linguísticos e gramaticais: regras sintáticas de concordância nominal e verbal, convenções de escrita de citações, pontuação (ponto final, dois-pontos, vírgulas em enumerações) e regras ortográficas.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP27",
+    "texto": "Utilizar, ao produzir o texto, recursos de coesão pronominal (pronomes anafóricos) e articuladores de relações de sentido (tempo, causa, oposição, conclusão, comparação), com nível adequado de informatividade.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05LP28",
+    "texto": "Observar, em ciberpoemas e minicontos infantis em mídia digital, os recursos multissemióticos presentes nesses textos digitais.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA01",
+    "texto": "Ler, escrever e ordenar números naturais até a ordem das centenas de milhar com compreensão das principais características do sistema de numeração decimal.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA02",
+    "texto": "Ler, escrever e ordenar números racionais na forma decimal com compreensão das principais características do sistema de numeração decimal, utilizando, como recursos, a composição e decomposição e a reta numérica.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA03",
+    "texto": "Identificar e representar frações (menores e maiores que a unidade), associando-as ao resultado de uma divisão ou à ideia de parte de um todo, utilizando a reta numérica como recurso.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA04",
+    "texto": "Identificar frações equivalentes.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA05",
+    "texto": "Comparar e ordenar números racionais positivos (representações fracionária e decimal), relacionando-os a pontos na reta numérica.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA06",
+    "texto": "Associar as representações 10%, 25%, 50%, 75% e 100% respectivamente à décima parte, quarta parte, metade, três quartos e um inteiro, para calcular porcentagens, utilizando estratégias pessoais, cálculo mental e calculadora, em contextos de educação financeira, entre outros.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA07",
+    "texto": "Resolver e elaborar problemas de adição e subtração com números naturais e com números racionais, cuja representação decimal seja finita, utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA08",
+    "texto": "Resolver e elaborar problemas de multiplicação e divisão com números naturais e com números racionais cuja representação decimal é finita (com multiplicador natural e divisor natural e diferente de zero), utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA09",
+    "texto": "Resolver e elaborar problemas simples de contagem envolvendo o princípio multiplicativo, como a determinação do número de agrupamentos possíveis ao se combinar cada elemento de uma coleção com todos os elementos de outra coleção, por meio de diagramas de árvore ou por tabelas.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA10",
+    "texto": "Concluir, por meio de investigações, que a relação de igualdade existente entre dois membros permanece ao adicionar, subtrair, multiplicar ou dividir cada um desses membros por um mesmo número, para construir a noção de equivalência.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA11",
+    "texto": "Resolver e elaborar problemas cuja conversão em sentença matemática seja uma igualdade com uma operação em que um dos termos é desconhecido.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA12",
+    "texto": "Resolver problemas que envolvam variação de proporcionalidade direta entre duas grandezas, para associar a quantidade de um produto ao valor a pagar, alterar as quantidades de ingredientes de receitas, ampliar ou reduzir escala em mapas, entre outros.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA13",
+    "texto": "Resolver problemas envolvendo a partilha de uma quantidade em duas partes desiguais, tais como dividir uma quantidade em duas partes, de modo que uma seja o dobro da outra, com compreensão da ideia de razão entre as partes e delas com o todo.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA14",
+    "texto": "Utilizar e compreender diferentes representações para a localização de objetos no plano, como mapas, células em planilhas eletrônicas e coordenadas geográficas, a fim de desenvolver as primeiras noções de coordenadas cartesianas.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA15",
+    "texto": "Interpretar, descrever e representar a localização ou movimentação de objetos no plano cartesiano (1º quadrante), utilizando coordenadas cartesianas, indicando mudanças de direção e de sentido e giros.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA16",
+    "texto": "Associar figuras espaciais a suas planificações (prismas, pirâmides, cilindros e cones) e analisar, nomear e comparar seus atributos.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA17",
+    "texto": "Reconhecer, nomear e comparar polígonos, considerando lados, vértices e ângulos, e desenhá-los, utilizando material de desenho ou tecnologias digitais.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA18",
+    "texto": "Reconhecer a congruência dos ângulos e a proporcionalidade entre os lados correspondentes de figuras poligonais em situações de ampliação e de redução em malhas quadriculadas e usando tecnologias digitais.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA19",
+    "texto": "Resolver e elaborar problemas envolvendo medidas das grandezas comprimento, área, massa, tempo, temperatura e capacidade, recorrendo a transformações entre as unidades mais usuais em contextos socioculturais.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA20",
+    "texto": "Concluir, por meio de investigações, que figuras de perímetros iguais podem ter áreas diferentes e que, também, figuras que têm a mesma área podem ter perímetros diferentes.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA21",
+    "texto": "Reconhecer volume como grandeza associada a sólidos geométricos e medir volumes por meio de empilhamento de cubos, utilizando, preferencialmente, objetos concretos.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA22",
+    "texto": "Apresentar todos os possíveis resultados de um experimento aleatório, estimando se esses resultados são igualmente prováveis ou não.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA23",
+    "texto": "Determinar a probabilidade de ocorrência de um resultado em eventos aleatórios, quando todos os resultados possíveis têm a mesma chance de ocorrer (equiprováveis).",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA24",
+    "texto": "Interpretar dados estatísticos apresentados em textos, tabelas e gráficos (colunas ou linhas), referentes a outras áreas do conhecimento ou a outros contextos, como saúde e trânsito, e produzir textos com o objetivo de sintetizar conclusões.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF05MA25",
+    "texto": "Realizar pesquisa envolvendo variáveis categóricas e numéricas, organizar dados coletados por meio de tabelas, gráficos de colunas, pictóricos e de linhas, com e sem uso de tecnologias digitais, e apresentar texto escrito sobre a finalidade da pesquisa e a síntese dos resultados.",
+    "componente": "ef-comp-ma",
+    "anos": [
+      5
+    ]
+  },
+  {
+    "codigo": "EF06LI01",
+    "texto": "Interagir em situações de intercâmbio oral, demonstrando iniciativa para utilizar a língua inglesa.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI02",
+    "texto": "Coletar informações do grupo, perguntando e respondendo sobre a família, os amigos, a escola e a comunidade..",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI03",
+    "texto": "Solicitar esclarecimentos em língua inglesa sobre o que não entendeu e o significado de palavras ou expressões desconhecidas.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI04",
+    "texto": "Reconhecer, com o apoio de palavras cognatas e pistas do contexto discursivo, o assunto e as informações principais em textos orais sobre temas familiares.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI05",
+    "texto": "Aplicar os conhecimentos da língua inglesa para falar de si e de outras pessoas, explicitando informações pessoais e características relacionadas a gostos, preferências e rotinas.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI06",
+    "texto": "Planejar apresentação sobre a família, a comunidade e a escola, compartilhando-a oralmente com o grupo.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI07",
+    "texto": "Formular hipóteses sobre a finalidade de um texto em língua inglesa, com base em sua estrutura, organização textual e pistas gráficas.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI08",
+    "texto": "Identificar o assunto de um texto, reconhecendo sua organização textual e palavras cognatas.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI09",
+    "texto": "Localizar informações específicas em texto.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI10",
+    "texto": "Conhecer a organização de um dicionário bilíngue (impresso e/ou on-line) para construir repertório lexical.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI11",
+    "texto": "Explorar ambientes virtuais e/ou aplicativos para construir repertório lexical na língua inglesa.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI12",
+    "texto": "Interessar-se pelo texto lido, compartilhando suas ideias sobre o que o texto informa/comunica.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI13",
+    "texto": "Listar ideias para a produção de textos, levando em conta o tema e o assunto.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI14",
+    "texto": "Organizar ideias, selecionando-as em função da estrutura e do objetivo do texto.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI15",
+    "texto": "Produzir textos escritos em língua inglesa (histórias em quadrinhos, cartazes, chats, blogues, agendas, fotolegendas, entre outros), sobre si mesmo, sua família, seus amigos, gostos, preferências e rotinas, sua comunidade e seu contexto escolar.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI16",
+    "texto": "Construir repertório relativo às expressões usadas para o convívio social e o uso da língua inglesa em sala de aula.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI17",
+    "texto": "Construir repertório lexical relativo a temas familiares (escola, família, rotina diária, atividades de lazer, esportes, entre outros).",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI18",
+    "texto": "Reconhecer semelhanças e diferenças na pronúncia de palavras da língua inglesa e da língua materna e/ou outras línguas conhecidas.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI19",
+    "texto": "Utilizar o presente do indicativo para identificar pessoas (verbo to be) e descrever rotinas diárias.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI20",
+    "texto": "Utilizar o presente contínuo para descrever ações em progresso.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI21",
+    "texto": "Reconhecer o uso do imperativo em enunciados de atividades, comandos e instruções.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI22",
+    "texto": "Descrever relações por meio do uso de apóstrofo (’) + s.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI23",
+    "texto": "Empregar, de forma inteligível, os adjetivos possessivos.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI24",
+    "texto": "Investigar o alcance da língua inglesa no mundo: como língua materna e/ou oficial (primeira ou segunda língua).",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI25",
+    "texto": "Identificar a presença da língua inglesa na sociedade brasileira/comunidade (palavras, expressões, suportes e esferas de circulação e consumo) e seu significado.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF06LI26",
+    "texto": "Avaliar, problematizando elementos/produtos culturais de países de língua inglesa absorvidos pela sociedade brasileira/comunidade.",
+    "componente": "ef-comp-li",
+    "anos": [
+      6
+    ]
+  },
+  {
+    "codigo": "EF15LP01",
+    "texto": "Identificar a função social de textos que circulam em campos da vida social dos quais participa cotidianamente (a casa, a rua, a comunidade, a escola) e nas mídias impressa, de massa e digital, reconhecendo para que foram produzidos, onde circulam, quem os produziu e a quem se destinam.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP02",
+    "texto": "Estabelecer expectativas em relação ao texto que vai ler (pressuposições antecipadoras dos sentidos, da forma e da função social do texto), apoiando-se em seus conhecimentos prévios sobre as condições de produção e recepção desse texto, o gênero, o suporte e o universo temático, bem como sobre saliências textuais, recursos gráficos, imagens, dados da própria obra (índice, prefácio etc.), confirmando antecipações e inferências realizadas antes e durante a leitura de textos, checando a adequação das hipóteses realizadas.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP03",
+    "texto": "Localizar informações explícitas em textos.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP04",
+    "texto": "Identificar o efeito de sentido produzido pelo uso de recursos expressivos gráfico-visuais em textos multissemióticos.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP05",
+    "texto": "Planejar, com a ajuda do professor, o texto que será produzido, considerando a situação comunicativa, os interlocutores (quem escreve/para quem escreve); a finalidade ou o propósito (escrever para quê); a circulação (onde o texto vai circular); o suporte (qual é o portador do texto); a linguagem, organização e forma do texto e seu tema, pesquisando em meios impressos ou digitais, sempre que for preciso, informações necessárias à produção do texto, organizando em tópicos os dados e as fontes pesquisadas.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP06",
+    "texto": "Reler e revisar o texto produzido com a ajuda do professor e a colaboração dos colegas, para corrigi-lo e aprimorá-lo, fazendo cortes, acréscimos, reformulações, correções de ortografia e pontuação.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP07",
+    "texto": "Editar a versão final do texto, em colaboração com os colegas e com a ajuda do professor, ilustrando, quando for o caso, em suporte adequado, manual ou digital.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP08",
+    "texto": "Utilizar software, inclusive programas de edição de texto, para editar e publicar os textos produzidos, explorando os recursos multissemióticos disponíveis.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP09",
+    "texto": "Expressar-se em situações de intercâmbio oral com clareza, preocupando-se em ser compreendido pelo interlocutor e usando a palavra com tom de voz audível, boa articulação e ritmo adequado.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP10",
+    "texto": "Escutar, com atenção, falas de professores e colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP11",
+    "texto": "Reconhecer características da conversação espontânea presencial, respeitando os turnos de fala, selecionando e utilizando, durante a conversação, formas de tratamento adequadas, de acordo com a situação e a posição do interlocutor.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP12",
+    "texto": "Atribuir significado a aspectos não linguísticos (paralinguísticos) observados na fala, como direção do olhar, riso, gestos, movimentos da cabeça (de concordância ou discordância), expressão corporal, tom de voz.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP13",
+    "texto": "Identificar finalidades da interação oral em diferentes contextos comunicativos (solicitar informações, apresentar opiniões, informar, relatar experiências etc.).",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP14",
+    "texto": "Construir o sentido de histórias em quadrinhos e tirinhas, relacionando imagens e palavras e interpretando recursos gráficos (tipos de balões, de letras, onomatopeias).",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP15",
+    "texto": "Reconhecer que os textos literários fazem parte do mundo do imaginário e apresentam uma dimensão lúdica, de encantamento, valorizando-os, em sua diversidade cultural, como patrimônio artístico da humanidade.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP16",
+    "texto": "Ler e compreender, em colaboração com os colegas e com a ajuda do professor e, mais tarde, de maneira autônoma, textos narrativos de maior porte como contos (populares, de fadas, acumulativos, de assombração etc.) e crônicas.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP17",
+    "texto": "Apreciar poemas visuais e concretos, observando efeitos de sentido criados pelo formato do texto na página, distribuição e diagramação das letras, pelas ilustrações e por outros efeitos visuais.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP18",
+    "texto": "Relacionar texto com ilustrações e outros recursos gráficos.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF15LP19",
+    "texto": "Recontar oralmente, com e sem apoio de imagem, textos literários lidos pelo professor.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP01",
+    "texto": "Ler e compreender, silenciosamente e, em seguida, em voz alta, com autonomia e fluência, textos curtos com nível de textualidade adequado.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP02",
+    "texto": "Selecionar livros da biblioteca e/ou do cantinho de leitura da sala de aula e/ou disponíveis em meios digitais para leitura individual, justificando a escolha e compartilhando com os colegas sua opinião, após a leitura.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP03",
+    "texto": "Identificar a ideia central do texto, demonstrando compreensão global.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP04",
+    "texto": "Inferir informações implícitas nos textos lidos.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP05",
+    "texto": "Inferir o sentido de palavras ou expressões desconhecidas em textos, com base no contexto da frase ou do texto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP06",
+    "texto": "Recuperar relações entre partes de um texto, identificando substituições lexicais (de substantivos por sinônimos) ou pronominais (uso de pronomes anafóricos – pessoais, possessivos, demonstrativos) que contribuem para a continuidade do texto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP07",
+    "texto": "Utilizar, ao produzir um texto, conhecimentos linguísticos e gramaticais, tais como ortografia, regras básicas de concordância nominal e verbal, pontuação (ponto final, ponto de exclamação, ponto de interrogação, vírgulas em enumerações) e pontuação do discurso direto, quando for o caso.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP08",
+    "texto": "Utilizar, ao produzir um texto, recursos de referenciação (por substituição lexical ou por pronomes pessoais, possessivos e demonstrativos), vocabulário apropriado ao gênero, recursos de coesão pronominal (pronomes anafóricos) e articuladores de relações de sentido (tempo, causa, oposição, conclusão, comparação), com nível suficiente de informatividade.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP09",
+    "texto": "Organizar o texto em unidades de sentido, dividindo-o em parágrafos segundo as normas gráficas e de acordo com as características do gênero textual.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP10",
+    "texto": "Identificar gêneros do discurso oral, utilizados em diferentes situações e contextos comunicativos, e suas características linguístico-expressivas e composicionais (conversação espontânea, conversação telefônica, entrevistas pessoais, entrevistas no rádio ou na TV, debate, noticiário de rádio e TV, narração de jogos esportivos no rádio e TV, aula, debate etc.).",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP11",
+    "texto": "Ouvir gravações, canções, textos falados em diferentes variedades linguísticas, identificando características regionais, urbanas e rurais da fala e respeitando as diversas variedades linguísticas como características do uso da língua por diferentes grupos regionais ou diferentes culturas locais, rejeitando preconceitos linguísticos.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP12",
+    "texto": "Recorrer ao dicionário para esclarecer dúvida sobre a escrita de palavras, especialmente no caso de palavras com relações irregulares fonema-grafema.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP13",
+    "texto": "Memorizar a grafia de palavras de uso frequente nas quais as relações fonema-grafema são irregulares e com h inicial que não representa fonema.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP14",
+    "texto": "Identificar em textos e usar na produção textual pronomes pessoais, possessivos e demonstrativos, como recurso coesivo anafórico.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP15",
+    "texto": "Opinar e defender ponto de vista sobre tema polêmico relacionado a situações vivenciadas na escola e/ou na comunidade, utilizando registro formal e estrutura adequada à argumentação, considerando a situação comunicativa e o tema/assunto do texto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP16",
+    "texto": "Identificar e reproduzir, em notícias, manchetes, lides e corpo de notícias simples para público infantil e cartas de reclamação (revista infantil), digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP17",
+    "texto": "Buscar e selecionar, com o apoio do professor, informações de interesse sobre fenômenos sociais e naturais, em textos que circulam em meios impressos ou digitais.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP18",
+    "texto": "Escutar, com atenção, apresentações de trabalhos realizadas por colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP19",
+    "texto": "Recuperar as ideias principais em situações formais de escuta de exposições, apresentações e palestras.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP20",
+    "texto": "Expor trabalhos ou pesquisas escolares, em sala de aula, com apoio de recursos multissemióticos (imagens, diagrama, tabelas etc.), orientando-se por roteiro escrito, planejando o tempo de fala e adequando a linguagem à situação comunicativa.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP21",
+    "texto": "Ler e compreender, de forma autônoma, textos literários de diferentes gêneros e extensões, inclusive aqueles sem ilustrações, estabelecendo preferências por gêneros, temas, autores.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP22",
+    "texto": "Perceber diálogos em textos narrativos, observando o efeito de sentido de verbos de enunciação e, se for o caso, o uso de variedades linguísticas no discurso direto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP23",
+    "texto": "Apreciar poemas e outros textos versificados, observando rimas, aliterações e diferentes modos de divisão dos versos, estrofes e refrões e seu efeito de sentido.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP24",
+    "texto": "Identificar funções do texto dramático (escrito para ser encenado) e sua organização por meio de diálogos entre personagens e marcadores das falas das personagens e de cena.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP25",
+    "texto": "Criar narrativas ficcionais, com certa autonomia, utilizando detalhes descritivos, sequências de eventos e imagens apropriadas para sustentar o sentido do texto, e marcadores de tempo, espaço e de fala de personagens.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP26",
+    "texto": "Ler e compreender, com certa autonomia, narrativas ficcionais que apresentem cenários e personagens, observando os elementos da estrutura narrativa: enredo, tempo, espaço, personagens, narrador e a construção do discurso indireto e discurso direto.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP27",
+    "texto": "Ler e compreender, com certa autonomia, textos em versos, explorando rimas, sons e jogos de palavras, imagens poéticas (sentidos figurados) e recursos visuais e sonoros.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP28",
+    "texto": "Declamar poemas, com entonação, postura e interpretação adequadas.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP29",
+    "texto": "Identificar, em narrativas, cenário, personagem central, conflito gerador, resolução e o ponto de vista com base no qual histórias são narradas, diferenciando narrativas em primeira e terceira pessoas.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP30",
+    "texto": "Diferenciar discurso indireto e discurso direto, determinando o efeito de sentido de verbos de enunciação e explicando o uso de variedades linguísticas no discurso direto, quando for o caso.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codigo": "EF35LP31",
+    "texto": "Identificar, em textos versificados, efeitos de sentido decorrentes do uso de recursos rítmicos e sonoros e de metáforas.",
+    "componente": "ef-comp-lp",
+    "anos": [
+      3,
+      4,
+      5
+    ]
+  }
+]

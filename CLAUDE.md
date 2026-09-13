@@ -19,6 +19,8 @@ Use **pnpm** (not npm).
 - `pnpm lint`, `pnpm format:check`.
 - Before calling work done: `pnpm lint && pnpm typecheck && pnpm test`, plus `pnpm test:e2e` for UI changes.
 - A PostToolUse hook runs Prettier on every file you edit. Markdown is excluded via `.prettierignore`.
+- `ANTHROPIC_API_KEY` goes in `.env.local` (see `.env.example`); server-only, never `NEXT_PUBLIC_`.
+- Real Claude API calls cost money. Tests mock the SDK; ask before running anything that calls the API for real.
 
 ## Language
 
@@ -34,6 +36,7 @@ Use **pnpm** (not npm).
 
 - Never commit the sketch photos (gitignored; they carry GPS EXIF) or any other image/data about a child.
 - Never paste a child's personal data into code, fixtures, issues, or commits — use synthetic examples.
+- Photo feature (`specs/photo-summary.md`): never store or log the photo, its text or the summary. Changing `/privacidade` means bumping `CONSENT_VERSION`. The spec lists blockers before any public deploy.
 
 ## Content licensing
 

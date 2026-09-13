@@ -36,31 +36,32 @@ The one open asset is the BNCC skill list. [bncc-dados](https://github.com/bncc-
 
 ## Acceptance criteria
 
-- [ ] The game offers exactly six subjects, labeled "Matemática", "Português", "Ciências", "História", "Geografia", "Inglês".
+- [x] The game offers exactly six subjects, labeled "Matemática", "Português", "Ciências", "História", "Geografia", "Inglês".
 - [x] Each subject has a theme color used consistently wherever it appears: Matemática red, Português orange, Ciências pink, História green, Geografia blue, Inglês yellow. Tokens in `src/app/globals.css`: a fill color, an `-ink` shade for text on white, and an `on-` color for text on the fill.
 - [x] Text shown on or next to a subject color meets WCAG AA contrast (4.5:1). Yellow and pink especially need dark text, not white. Checked by `src/lib/subject-colors.test.ts`.
 - [ ] All question content targets the Brazilian 5th grade ("quinto ano").
-- [x] Every Matemática, Português, Ciências, História and Geografia question is tagged with the BNCC 5º ano skill code it practices (EF05…). The per-subject prefix is enforced when the bank is loaded.
-- [ ] Every Inglês question is tagged with an EF06LI… skill code and marked as outside BNCC 5º ano.
-- [ ] Skill codes and texts come from a vendored copy of bncc-dados, credited as its CC BY 4.0 license requires.
+- [x] Every Matemática, Português, Ciências, História and Geografia question is tagged with the BNCC skill it practices: an EF05… code, or a multi-year code that includes 5º ano (e.g. EF35LP03). Checked against the vendored skill list when the bank is loaded.
+- [x] Every Inglês question is tagged with an EF06LI… skill code. `src/lib/subjects.ts` marks Inglês as a 6º ano subject, outside BNCC 5º ano; the UI doesn't show this.
+- [x] Skill codes and texts come from a vendored copy of bncc-dados, credited as its CC BY 4.0 license requires (`data/bncc/`).
 - [x] Every question has a correct answer and a pt-BR explanation (used by "Explicar como resolver"). Enforced by the schema in `src/lib/questions.ts`.
 - [ ] Every question is reviewed by an adult before it is committed. No wording is copied from INEP, OBMEP, OBA, Canguru or any other third-party source.
 - [x] The question bank is licensed CC BY 4.0, separately from the MIT-licensed code (`data/LICENSE.md`).
 - [x] There are no difficulty levels: each subject's questions form a single pool.
-- [ ] Inglês questions and answer options are in English; instructions, feedback and explanations are in pt-BR.
+- [x] Inglês questions and answer options are in English; instructions, feedback and explanations are in pt-BR.
 - [x] Two question types exist:
   - [x] **Multiple choice**: the kid picks one option from a list.
   - [x] **Typed answer**: the kid types letters and/or numbers on the in-app keyboard and submits it.
 - [x] Typed answers are compared after normalizing both sides: case-insensitive, accent-insensitive, "," and "." accepted as decimal separators, leading/trailing/repeated spaces ignored. E.g. "  historia " matches "História", and "233.6" matches "233,6".
-- [ ] A kid can send a photo of a text and gets back, in pt-BR, a summary of it and an explanation at a 5th-grade level.
+- [x] A kid can send a photo of a text and gets back, in pt-BR, a summary of it and an explanation at a 5th-grade level. See `specs/photo-summary.md`, including its blockers before a public deploy.
 - [ ] All UI text is pt-BR, with correct accents (the note's spelling is not copied into the UI).
 
 ## Files
 
-- `data/questions/<subject>.json`: the question bank. Only `matematica.json` exists so far.
+- `data/questions/<subject>.json`: the question bank, 4 questions per subject.
 - `data/LICENSE.md`: CC BY 4.0 notice for the bank.
+- `data/bncc/`: vendored BNCC skills (bncc-dados, CC BY 4.0) with attribution and the command to regenerate them.
 - `src/lib/questions.ts`: schema and loader; an invalid bank fails the build.
-- `src/lib/subjects.ts`: the six subjects, their names and BNCC prefixes.
+- `src/lib/subjects.ts`: the six subjects, their names and their BNCC component and year.
 - `src/lib/answers.ts`: lenient answer comparison.
 - `src/app/globals.css`: subject color tokens.
 

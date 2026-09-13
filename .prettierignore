@@ -1,3 +1,5 @@
 pnpm-lock.yaml
+# Vendored third-party data, kept byte-identical to its source
+data/bncc/
 # Markdown (specs, CLAUDE.md, next-managed AGENTS.md) is hand-formatted
 *.md

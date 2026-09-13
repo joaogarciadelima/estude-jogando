@@ -63,9 +63,12 @@ test("every tappable element is at least 44×44 CSS px and fits the tablet scree
   }
 });
 
-test("a subject without questions says so", async ({ page }) => {
+test("Inglês opens with its first question, in English with a pt-BR instruction", async ({
+  page,
+}) => {
   await page.goto("/ingles");
-  await expect(page.getByText("Ainda não há questões de Inglês.")).toBeVisible();
+  await expect(page.getByRole("heading", { level: 1, name: "Inglês" })).toBeVisible();
+  await expect(page.getByText('Complete com o verbo to be: "She ___ my sister."')).toBeVisible();
 });
 
 test("'← Matérias' goes back to the home", async ({ page }) => {

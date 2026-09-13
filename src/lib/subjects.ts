@@ -4,8 +4,11 @@ export type SubjectSlug =
 export type Subject = {
   slug: SubjectSlug;
   name: string;
-  /** Every question's BNCC code must start with this. Inglês uses 6º ano skills (outside BNCC 5º ano). */
-  bnccPrefix: string;
+  /**
+   * BNCC component (bncc-dados id) and school year every question's skill must belong to.
+   * Inglês uses 6º ano: the BNCC has no English before 6º ano.
+   */
+  bncc: { component: string; year: number };
   /** Home card sentence (specs/home.md). */
   description: string;
 };
@@ -14,38 +17,38 @@ export const SUBJECTS: readonly Subject[] = [
   {
     slug: "matematica",
     name: "Matemática",
-    bnccPrefix: "EF05MA",
+    bncc: { component: "ef-comp-ma", year: 5 },
     description: "Pratique porcentagem, frações, números decimais e muito mais.",
   },
   {
     slug: "portugues",
     name: "Português",
-    bnccPrefix: "EF05LP",
+    bncc: { component: "ef-comp-lp", year: 5 },
     description: "Treine leitura, escrita, pontuação e ortografia.",
   },
   {
     slug: "ciencias",
     name: "Ciências",
-    bnccPrefix: "EF05CI",
+    bncc: { component: "ef-comp-ci", year: 5 },
     // Antonia's sentence from IMG_2886, with punctuation added.
     description: "Aprenda sobre plantas, constelações, corpo humano, entre outras.",
   },
   {
     slug: "historia",
     name: "História",
-    bnccPrefix: "EF05HI",
+    bncc: { component: "ef-comp-hi", year: 5 },
     description: "Descubra como os povos e as culturas se formaram ao longo do tempo.",
   },
   {
     slug: "geografia",
     name: "Geografia",
-    bnccPrefix: "EF05GE",
+    bncc: { component: "ef-comp-ge", year: 5 },
     description: "Explore mapas, cidades, paisagens e o meio ambiente.",
   },
   {
     slug: "ingles",
     name: "Inglês",
-    bnccPrefix: "EF06LI",
+    bncc: { component: "ef-comp-li", year: 6 },
     description: "Aprenda palavras e frases do dia a dia em inglês.",
   },
 ];

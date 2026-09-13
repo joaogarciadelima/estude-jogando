@@ -5,9 +5,17 @@ import { SUBJECTS } from "@/lib/subjects";
 export default function Page() {
   return (
     <main className="flex h-dvh flex-col gap-4 p-6">
-      <header className="text-center">
-        <h1 className="text-4xl font-bold">Estude Jogando</h1>
-        <p className="text-xl">Escolha uma matéria para começar.</p>
+      <header className="flex items-center justify-between gap-4">
+        <div>
+          <h1 className="text-4xl font-bold">Estude Jogando</h1>
+          <p className="text-xl">Escolha uma matéria para começar.</p>
+        </div>
+        <Link
+          href="/foto"
+          className="flex min-h-12 items-center gap-2 rounded-full bg-stone-900 px-6 text-xl font-semibold text-white"
+        >
+          <span aria-hidden="true">📷</span> Mandar foto de um texto
+        </Link>
       </header>
       <ul aria-label="Matérias" className="grid min-h-0 flex-1 grid-cols-3 grid-rows-2 gap-4">
         {SUBJECTS.map((subject) => (
